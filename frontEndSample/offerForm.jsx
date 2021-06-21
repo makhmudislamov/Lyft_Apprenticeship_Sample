@@ -21,13 +21,14 @@ class OfferForm extends Form {
         errors: {},
     };
 
+    // validating offer model
     schema = {
         _id: Joi.string(),
         displayname: Joi.string()
             .required()
             .min(3)
             .max(255)
-            .label("Displayed Name"), // username vs name?
+            .label("Displayed Name"), 
         sendingFrom: Joi.string()
             .required()
             .min(3)
@@ -64,10 +65,8 @@ class OfferForm extends Form {
                 this.setState({ data: this.mapToViewModel(offer) });
             } else {
                 toast.error("You can edit only your offers");
-                // return
                 this.props.history.push("/");
-                // solution for unmounted component error
-                // window.location = "/";
+
             }
         } catch (ex) {
             if (ex.response && ex.response.status === 404)
@@ -93,6 +92,7 @@ class OfferForm extends Form {
         };
     }
 
+    // sending data to backend
     doSubmit = async () => {
         await saveOffer(this.state.data);
         this.props.history.push("/offers");
