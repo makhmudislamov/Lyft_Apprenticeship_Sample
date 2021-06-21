@@ -1,6 +1,6 @@
 # Technical Sample for Lyft Software Engineering Apprenticeship
 
-## The files in this repository are sample from front end and back end of <a href='https://www.dinora.net'>Dinora.net</a>. Full repository is private. I was a solo (fullstack) developer in this project.
+## The files in this repository are sample from front end and back end of <a href='https://www.dinora.net'>Dinora.net</a>. Full repository is private. I was a solo (fullstack) developer in this MERN stack project.
 
 ## Dinora is a peer to peer money exchange platform that minimizes transaction fees.
 
