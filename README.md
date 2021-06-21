@@ -1,8 +1,8 @@
 # Technical Sample for Lyft Software Engineering Apprenticeship
 
-## The files in this repository are sample from both front end and back end of Dinora.net. Full repository is private. 
+## The files in this repository are sample from front end and back end of Dinora.net. Full repository is private. 
 
-##Dinora is a peer to peer money exchange platform that minimizes transaction fees.
+## Dinora is a peer to peer money exchange platform that minimizes transaction fees.
 
 ### Front end sample can be found inside frontEndSample folder - offerForm.jsx
 
@@ -29,7 +29,7 @@ The file is a back end (money exchange offer CRUD) route that handles:
 
 Separate back end API:
 1. GET requiest for all offers: https://dinora-api.herokuapp.com/api/offers
-2. GET requiest for one offer. Please replace offerId with an actual id: https://dinora-api.herokuapp.com/api/offers/:offerId
+2. GET requiest for one offer. Please replace `offerId` with an actual id: https://dinora-api.herokuapp.com/api/offers/:offerId
 
 Note: user auth is required for full functionality of the application
 
