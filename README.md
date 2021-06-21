@@ -8,7 +8,7 @@
 
 #### Description & Demo
 The file is OfferForm class that handles:
-1. Population new offer form
+1. Population of new offer form
 2. Population of an existing offer (in case user wants to edit) 
 3. Submission to back end. 
 4. Validation of each field is accomplieshed by third party library - Joi.
